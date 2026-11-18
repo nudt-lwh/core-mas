@@ -1,0 +1,169 @@
+{
+  "spec_version": "1.0",
+  "project": "CORE-MAS",
+  "frozen": "2026-10-29",
+  "note": "指标定义冻结；变更须升级版本并保留旧版。所有聚合在 test 数据只看一次后重算。",
+  "metrics": {
+    "M1": {
+      "name": "acc_normal",
+      "role": "primary",
+      "claims": ["C1", "C4"],
+      "formula": "correct_tasks / total_tasks, no-failure scenario s0",
+      "unit": "proportion",
+      "direction": "higher_better",
+      "statistical_unit": "task (paired across conditions by task_id)",
+      "level": "sample",
+      "notes": "分别报告规则求解器与 LLM 两种执行者；分母含全部任务（含无法完成者）",
+      "failure_handling": "执行异常按失败计入分母并留原因码"
+    },
+    "M2": {
+      "name": "acc_fault",
+      "role": "primary",
+      "claims": ["C1", "C4"],
+      "formula": "correct_tasks / total_tasks under failure scenario s",
+      "unit": "proportion",
+      "direction": "higher_better",
+      "statistical_unit": "task",
+      "level": "sample",
+      "notes": "按故障类型 s1/s2 及加权组合分别报告",
+      "failure_handling": "同 M1"
+    },
+    "M3": {
+      "name": "paired_drop",
+      "role": "primary",
+      "claims": ["C1"],
+      "formula": "per-task acc(s0) - acc(s), paired by task_id; aggregate mean",
+      "unit": "proportion points",
+      "direction": "lower_better",
+      "statistical_unit": "task pair",
+      "level": "sample",
+      "notes": "仅用同任务同配置配对；不跨任务配对",
+      "failure_handling": "单侧缺值则任务对剔除并记录"
+    },
+    "M4": {
+      "name": "capability_retention",
+      "role": "primary",
+      "claims": ["C1", "C5"],
+      "formula": "P(correct under s | correct under s0), denominator = tasks correct in s0",
+      "unit": "proportion",
+      "direction": "higher_better",
+      "statistical_unit": "task",
+      "level": "sample",
+      "notes": "必须与 M2 总体正确率同时报告，防选择偏差",
+      "failure_handling": "s0 全错的任务不计入分母但保留记录"
+    },
+    "M5": {
+      "name": "witness_coverage",
+      "role": "primary (structural)",
+      "claims": ["C1", "C2", "C3"],
+      "formula": "tasks with >=1 complete accessible verifiable witness path after s / total tasks",
+      "unit": "proportion",
+      "direction": "higher_better",
+      "statistical_unit": "task",
+      "level": "sample",
+      "notes": "由确定性规则求解器按 AND/OR/PROVENANCE 结构判定；不依赖 LLM",
+      "failure_handling": "结构缺项=未覆盖"
+    },
+    "M6": {
+      "name": "recovery_hallucination_rate",
+      "role": "primary (ECCR)",
+      "claims": ["C4"],
+      "formula": "answers claiming recovery lacking verifiable source or factually wrong / answers claiming recovery",
+      "unit": "proportion",
+      "direction": "lower_better",
+      "statistical_unit": "answer event",
+      "level": "turn",
+      "notes": "来源核验按 rule-based provenance checker，非 LLM 自报",
+      "failure_handling": "无法判定来源时计为未核验并单独报告"
+    },
+    "M7": {
+      "name": "insufficient_evidence_behavior",
+      "role": "secondary",
+      "claims": ["C4"],
+      "formula": "refusal_rate; refusal_correctness=P(evidence truly insufficient | marked insufficient); miss_rate=P(answer without sufficient evidence)",
+      "unit": "proportion",
+      "direction": "refusal_correctness higher; miss_rate lower",
+      "statistical_unit": "task",
+      "level": "sample",
+      "notes": "真实充分性由规则判定",
+      "failure_handling": "n/a"
+    },
+    "M8": {
+      "name": "storage_tokens",
+      "role": "constraint",
+      "claims": ["C1", "C6"],
+      "formula": "sum over persisted units of tokenize(content + provenance + index) per agent and team",
+      "unit": "tokens (MD2 tokenizer 实测)",
+      "direction": "constraint: <= budget",
+      "statistical_unit": "agent / team",
+      "level": "run",
+      "notes": "所有策略同预算口径；副本、索引、来源元数据全部计入",
+      "failure_handling": "n/a"
+    },
+    "M9": {
+      "name": "retrieval_comm_tokens_calls",
+      "role": "secondary",
+      "claims": ["C6"],
+      "formula": "per-task retrieval/communication tokens and LLM call counts (all roles)",
+      "unit": "tokens / calls",
+      "direction": "lower_better (效果已达标前提下)",
+      "statistical_unit": "task",
+      "level": "turn",
+      "notes": "方法与评分调用分列；含重试",
+      "failure_handling": "n/a"
+    },
+    "M10": {
+      "name": "latency",
+      "role": "secondary",
+      "claims": ["C6"],
+      "formula": "per-task end-to-end wall clock, cold/warm start recorded",
+      "unit": "seconds",
+      "direction": "lower_better",
+      "statistical_unit": "task",
+      "level": "run",
+      "notes": "本地计时记录模型加载/预热/同步范围；token 减少不直接等同时延降低",
+      "failure_handling": "n/a"
+    },
+    "M11": {
+      "name": "preprocess_cpu_time",
+      "role": "secondary",
+      "claims": ["C6"],
+      "formula": "CPU time of memory extraction + witness building + allocation + failure simulation + recovery checks",
+      "unit": "seconds",
+      "direction": "lower_better",
+      "statistical_unit": "run",
+      "level": "run",
+      "notes": "可离线，但不得按零成本描述",
+      "failure_handling": "n/a"
+    },
+    "M12": {
+      "name": "optimality_gap",
+      "role": "diagnostic",
+      "claims": ["C3"],
+      "formula": "(ILP_or_enumeration_opt - heuristic) / opt, small-scale only",
+      "unit": "proportion",
+      "direction": "lower_better",
+      "statistical_unit": "instance",
+      "level": "run",
+      "notes": "仅小规模（事实<=30, Agent<=4）用枚举/ILP；不宣称一般全局最优",
+      "failure_handling": "n/a"
+    },
+    "M13": {
+      "name": "solver_llm_gap",
+      "role": "diagnostic",
+      "claims": ["C1"],
+      "formula": "witness_coverage-based solver accuracy - LLM accuracy (same tasks/conditions)",
+      "unit": "proportion points",
+      "direction": "informative",
+      "statistical_unit": "task",
+      "level": "sample",
+      "notes": "量化结构覆盖到实际正确率的转化损失；E0 中用运行完整性检查替代",
+      "failure_handling": "n/a"
+    }
+  },
+  "aggregation": {
+    "method": "mean over tasks; paired where applicable",
+    "uncertainty": "paired bootstrap 95% CI, block resampling by (task structure group, seed), R=1000; cluster by task structure",
+    "comparison": "paired per-task deltas between CORE-MAS and each baseline; report SE and CI, no single best-seed selection"
+  }
+}

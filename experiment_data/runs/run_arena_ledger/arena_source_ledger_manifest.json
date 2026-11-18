@@ -1,0 +1,12 @@
+{
+  "seed": "2026-11-10",
+  "model": "deepseek-chat",
+  "papers": [
+    "2402.05814",
+    "2507.18621",
+    "2312.01127"
+  ],
+  "n": 24,
+  "memory": "original CWRA memory vs SourceLedger (raw backgrounds + questions only, no model-generated history)",
+  "q0_shared": true
+}

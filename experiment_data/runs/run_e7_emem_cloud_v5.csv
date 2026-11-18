@@ -1,0 +1,193 @@
+conv,strategy,victim,question,prediction,reference,exact_match,f1,rouge1_f,rouge2_f,rougeL_f,bleu1,bleu2,bleu3,bleu4,meteor
+0,emem_like,s0,When did Caroline go to the LGBTQ support group?,yesterday.,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,agent_c,When did Caroline go to the LGBTQ support group?,yesterday.,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,s0,When did Melanie paint a sunrise?,Melanie painted a sunrise at a time not mentioned in the provided memory fragments.,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,agent_c,When did Melanie paint a sunrise?,Melanie painted a sunrise at a time not mentioned in the provided memory fragments.,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,s0,What fields would Caroline be likely to pursue in her educaton?,"counseling and mental health, specifically focusing on supporting trans individuals.","Psychology, counseling certification",0,0.15384615384615383,0.15384615384615383,0.0,0.15384615384615383,0.16666666666666669,0.12909944487358058,0.12111838948674818,0.11362193664674995,0.20833333333333334
+0,emem_like,agent_c,What fields would Caroline be likely to pursue in her educaton?,counseling and mental health,"Psychology, counseling certification",0,0.28571428571428575,0.28571428571428575,0.0,0.28571428571428575,0.25,0.158113883008419,0.13845868507746373,0.12574334296829354,0.125
+0,emem_like,s0,What did Caroline research?,counseling and mental health as a career,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,agent_c,What did Caroline research?,counseling and mental health as a career,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,s0,What is Caroline's identity?,INSUFFICIENT_EVIDENCE,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,agent_c,What is Caroline's identity?,INSUFFICIENT_EVIDENCE,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,s0,When did Melanie run a charity race?,last Saturday,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,agent_c,When did Melanie run a charity race?,last Saturday,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,s0,When is Melanie planning on going camping?,last week,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,agent_c,When is Melanie planning on going camping?,last week,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,s0,What is Caroline's relationship status?,Caroline is in a relationship.,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,emem_like,agent_c,What is Caroline's relationship status?,INSUFFICIENT_EVIDENCE,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,frequency,s0,When did Caroline go to the LGBTQ support group?,2023-07-14.,7 May 2023,0,0,0.3333333333333333,0.0,0.3333333333333333,0,0,0,0,0.0
+0,frequency,agent_c,When did Caroline go to the LGBTQ support group?,two days ago.,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,frequency,s0,When did Melanie paint a sunrise?,Melanie painted a sunrise in 2022.,2022,0,0.33333333333333337,0.2857142857142857,0.0,0.2857142857142857,0.14285714285714285,0.11952286093343939,0.11511121735118796,0.10932651139290935,0.31250000000000006
+0,frequency,agent_c,When did Melanie paint a sunrise?,2022.,2022,1,1.0,1.0,0.0,1.0,0.5,0.223606797749979,0.1740444189610778,0.1495348781221221,0.45454545454545453
+0,frequency,s0,What fields would Caroline be likely to pursue in her educaton?,counseling or mental health,"Psychology, counseling certification",0,0.28571428571428575,0.28571428571428575,0.0,0.28571428571428575,0.25,0.158113883008419,0.13845868507746373,0.12574334296829354,0.125
+0,frequency,agent_c,What fields would Caroline be likely to pursue in her educaton?,counseling or mental health,"Psychology, counseling certification",0,0.28571428571428575,0.28571428571428575,0.0,0.28571428571428575,0.25,0.158113883008419,0.13845868507746373,0.12574334296829354,0.125
+0,frequency,s0,What did Caroline research?,career options in counseling or working in mental health.,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,frequency,agent_c,What did Caroline research?,"Caroline researched career options in counseling or working in mental health, specifically interested in supporting people with similar issues.",Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,frequency,s0,What is Caroline's identity?,Caroline is the person who moved the red key to the kitchen table.,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,frequency,agent_c,What is Caroline's identity?,Caroline is the person who moved the red key to the kitchen table.,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,frequency,s0,When did Melanie run a charity race?,"last Saturday, October 1, 2023.",The sunday before 25 May 2023,0,0.20000000000000004,0.1818181818181818,0.0,0.1818181818181818,0.12500000000000003,0.11180339887498951,0.11014893547185513,0.10573712634405646,0.08064516129032259
+0,frequency,agent_c,When did Melanie run a charity race?,"last Saturday, October 1, 2023.",The sunday before 25 May 2023,0,0.20000000000000004,0.1818181818181818,0.0,0.1818181818181818,0.12500000000000003,0.11180339887498951,0.11014893547185513,0.10573712634405646,0.08064516129032259
+0,frequency,s0,When is Melanie planning on going camping?,next month,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,frequency,agent_c,When is Melanie planning on going camping?,next month,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,frequency,s0,What is Caroline's relationship status?,INSUFFICIENT_EVIDENCE,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,frequency,agent_c,What is Caroline's relationship status?,Caroline's relationship status is not explicitly stated in the text.,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,s0,When did Caroline go to the LGBTQ support group?,yesterday.,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,agent_c,When did Caroline go to the LGBTQ support group?,INSUFFICIENT_EVIDENCE,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,s0,When did Melanie paint a sunrise?,Melanie painted a lake sunrise last year.,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,agent_c,When did Melanie paint a sunrise?,Melanie painted a sunrise at a time not mentioned in the provided memory fragments.,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,s0,What fields would Caroline be likely to pursue in her educaton?,counseling and mental health.,"Psychology, counseling certification",0,0.28571428571428575,0.28571428571428575,0.0,0.28571428571428575,0.2,0.14142135623730953,0.128629297735137,0.11892071150027214,0.12195121951219512
+0,core_mas,agent_c,What fields would Caroline be likely to pursue in her educaton?,counseling and mental health.,"Psychology, counseling certification",0,0.28571428571428575,0.28571428571428575,0.0,0.28571428571428575,0.2,0.14142135623730953,0.128629297735137,0.11892071150027214,0.12195121951219512
+0,core_mas,s0,What did Caroline research?,"Caroline researched counseling and mental health as a career, specifically focusing on working with trans people and supporting their mental health.",Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,agent_c,What did Caroline research?,"Caroline researched counseling and mental health as a career, specifically focusing on working with trans people and supporting their mental health.",Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,s0,What is Caroline's identity?,Caroline is the person who moved the red key to the kitchen table.,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,agent_c,What is Caroline's identity?,Caroline is the person who moved the red key to the kitchen table.,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,s0,When did Melanie run a charity race?,last Saturday,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,agent_c,When did Melanie run a charity race?,last Saturday,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,s0,When is Melanie planning on going camping?,Melanie is planning on going camping today.,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,agent_c,When is Melanie planning on going camping?,Melanie is planning on going camping today.,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,s0,What is Caroline's relationship status?,INSUFFICIENT_EVIDENCE,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+0,core_mas,agent_c,What is Caroline's relationship status?,INSUFFICIENT_EVIDENCE,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,s0,When Jon has lost his job as a banker?,Jon lost his job as a banker on 2023-09-30.,"19 January, 2023",0,0,0.14285714285714288,0.0,0.14285714285714288,0,0,0,0,0.0
+1,emem_like,agent_c,When Jon has lost his job as a banker?,Jon lost his job as a banker on 2023-09-30.,"19 January, 2023",0,0,0.14285714285714288,0.0,0.14285714285714288,0,0,0,0,0.0
+1,emem_like,s0,When Gina has lost her job at Door Dash?,INSUFFICIENT_EVIDENCE,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,agent_c,When Gina has lost her job at Door Dash?,INSUFFICIENT_EVIDENCE,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,s0,How do Jon and Gina both like to destress?,INSUFFICIENT_EVIDENCE,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,agent_c,How do Jon and Gina both like to destress?,INSUFFICIENT_EVIDENCE,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,s0,What do Jon and Gina both have in common?,Gina and Alice both have the red key in common.,They lost their jobs and decided to start their own businesses.,0,0.09999999999999999,0.09523809523809525,0.0,0.09523809523809525,0.16601831205132045,0.12312247546651786,0.11381486718468117,0.10602981681532922,0.12605042016806722
+1,emem_like,agent_c,What do Jon and Gina both have in common?,Gina and Alice both have the red key in common.,They lost their jobs and decided to start their own businesses.,0,0.09999999999999999,0.09523809523809525,0.0,0.09523809523809525,0.16601831205132045,0.12312247546651786,0.11381486718468117,0.10602981681532922,0.12605042016806722
+1,emem_like,s0,Why did Jon decide to start his dance studio?,INSUFFICIENT_EVIDENCE,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,agent_c,Why did Jon decide to start his dance studio?,INSUFFICIENT_EVIDENCE,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,s0,What Jon thinks the ideal dance studio should look like?,"Jon thinks the ideal dance studio should have great natural light, be located downtown for easy access, and have Marley flooring, which is grippy, durable, and easy to keep clean.","By the water, with natural light and Marley flooring",0,0.2702702702702703,0.30769230769230765,0.1081081081081081,0.30769230769230765,0.19444444444444445,0.10540925533894598,0.10594975868546173,0.10266900960803409,0.4543245869776481
+1,emem_like,agent_c,What Jon thinks the ideal dance studio should look like?,"Jon thinks the ideal dance studio should have great natural light, be located downtown for easy access, and have Marley flooring, which is grippy, durable, and easy to keep clean.","By the water, with natural light and Marley flooring",0,0.2702702702702703,0.30769230769230765,0.1081081081081081,0.30769230769230765,0.19444444444444445,0.10540925533894598,0.10594975868546173,0.10266900960803409,0.4543245869776481
+1,emem_like,s0,When is Jon's group performing at a festival?,The memory does not provide a specific date or time for Jon's group performing at a festival.,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,agent_c,When is Jon's group performing at a festival?,next month.,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,s0,When did Gina launch an ad campaign for her store?,today.,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,emem_like,agent_c,When did Gina launch an ad campaign for her store?,today.,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,frequency,s0,When Jon has lost his job as a banker?,Jon lost his job as a banker on 2023-09-30.,"19 January, 2023",0,0,0.14285714285714288,0.0,0.14285714285714288,0,0,0,0,0.0
+1,frequency,agent_c,When Jon has lost his job as a banker?,Jon lost his job as a banker on 2023-10-01.,"19 January, 2023",0,0,0.14285714285714288,0.0,0.14285714285714288,0,0,0,0,0.0
+1,frequency,s0,When Gina has lost her job at Door Dash?,INSUFFICIENT_EVIDENCE,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,frequency,agent_c,When Gina has lost her job at Door Dash?,INSUFFICIENT_EVIDENCE,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,frequency,s0,How do Jon and Gina both like to destress?,Jon and Gina both like to destress by dancing.,by dancing,0,0.3636363636363636,0.3636363636363636,0.2222222222222222,0.3636363636363636,0.2,0.14907119849998599,0.1331802636949857,0.12209471671615688,0.6696428571428572
+1,frequency,agent_c,How do Jon and Gina both like to destress?,Jon and Gina both like to destress by dancing.,by dancing,0,0.3636363636363636,0.3636363636363636,0.2222222222222222,0.3636363636363636,0.2,0.14907119849998599,0.1331802636949857,0.12209471671615688,0.6696428571428572
+1,frequency,s0,What do Jon and Gina both have in common?,INSUFFICIENT_EVIDENCE,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,frequency,agent_c,What do Jon and Gina both have in common?,Jon and Gina both have a common interest in dance and fashion.,They lost their jobs and decided to start their own businesses.,0,0.09090909090909091,0.08695652173913043,0.0,0.08695652173913043,0.15384615384615385,0.12403473458920848,0.11796103985518507,0.1113708824555182,0.12396694214876033
+1,frequency,s0,Why did Jon decide to start his dance studio?,Jon decided to start his dance studio because he wanted to turn his love of dance into a business and share the joy and happiness it brings him with others.,He lost his job and decided to start his own business to share his passion.,0,0.46511627906976744,0.4444444444444444,0.1395348837209302,0.26666666666666666,0.3548387096774194,0.188371629943954,0.13748609799809336,0.09668881540160378,0.5841269841269842
+1,frequency,agent_c,Why did Jon decide to start his dance studio?,Jon decided to start his dance studio because he wanted to turn his love of dance into a business and share the joy and happiness it brings him with others.,He lost his job and decided to start his own business to share his passion.,0,0.46511627906976744,0.4444444444444444,0.1395348837209302,0.26666666666666666,0.3548387096774194,0.188371629943954,0.13748609799809336,0.09668881540160378,0.5841269841269842
+1,frequency,s0,What Jon thinks the ideal dance studio should look like?,"Jon thinks the ideal dance studio should have great natural light, be located downtown for easy access, and have Marley flooring for its grip, movement properties, and durability.","By the water, with natural light and Marley flooring",0,0.2857142857142857,0.3243243243243243,0.11428571428571428,0.3243243243243243,0.2121212121212121,0.11514154661795958,0.1123086375626647,0.10730402910327252,0.4654056744649079
+1,frequency,agent_c,What Jon thinks the ideal dance studio should look like?,"Jon thinks the ideal dance studio should have great natural light, be located downtown for easy access, and have Marley flooring for its grip, movement properties, and durability.","By the water, with natural light and Marley flooring",0,0.2857142857142857,0.3243243243243243,0.11428571428571428,0.3243243243243243,0.2121212121212121,0.11514154661795958,0.1123086375626647,0.10730402910327252,0.4654056744649079
+1,frequency,s0,When is Jon's group performing at a festival?,INSUFFICIENT_EVIDENCE,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,frequency,agent_c,When is Jon's group performing at a festival?,INSUFFICIENT_EVIDENCE,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,frequency,s0,When did Gina launch an ad campaign for her store?,last week,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,frequency,agent_c,When did Gina launch an ad campaign for her store?,INSUFFICIENT_EVIDENCE,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,core_mas,s0,When Jon has lost his job as a banker?,Jon lost his job as a banker on 2023-09-30.,"19 January, 2023",0,0,0.14285714285714288,0.0,0.14285714285714288,0,0,0,0,0.0
+1,core_mas,agent_c,When Jon has lost his job as a banker?,Jon lost his job as a banker on 2023-09-30.,"19 January, 2023",0,0,0.14285714285714288,0.0,0.14285714285714288,0,0,0,0,0.0
+1,core_mas,s0,When Gina has lost her job at Door Dash?,INSUFFICIENT_EVIDENCE,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,core_mas,agent_c,When Gina has lost her job at Door Dash?,Gina lost her job at Door Dash.,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,core_mas,s0,How do Jon and Gina both like to destress?,Gina likes to destress by dancing and finds motivation in fashion trends. Jon likes to destress by using a whiteboard to visualize goals and track successes.,by dancing,0,0.14814814814814814,0.14285714285714288,0.07692307692307693,0.14285714285714288,0.07142857142857141,0.05143444998736396,0.06598233889648288,0.07171781507224269,0.2173913043478261
+1,core_mas,agent_c,How do Jon and Gina both like to destress?,INSUFFICIENT_EVIDENCE,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,core_mas,s0,What do Jon and Gina both have in common?,Both Jon and Gina have a common interest in dance and fashion.,They lost their jobs and decided to start their own businesses.,0,0.09090909090909091,0.08695652173913043,0.0,0.08695652173913043,0.15384615384615385,0.12403473458920848,0.11796103985518507,0.1113708824555182,0.12396694214876033
+1,core_mas,agent_c,What do Jon and Gina both have in common?,Both Jon and Gina have a common interest in dance and fashion.,They lost their jobs and decided to start their own businesses.,0,0.09090909090909091,0.08695652173913043,0.0,0.08695652173913043,0.15384615384615385,0.12403473458920848,0.11796103985518507,0.1113708824555182,0.12396694214876033
+1,core_mas,s0,Why did Jon decide to start his dance studio?,Jon decided to start his dance studio because he moved the red key to the kitchen table.,He lost his job and decided to start his own business to share his passion.,0,0.4000000000000001,0.37500000000000006,0.19999999999999998,0.3125,0.3888888888888889,0.2619684159977919,0.20798144958408651,0.15464260451973763,0.3533635676492819
+1,core_mas,agent_c,Why did Jon decide to start his dance studio?,INSUFFICIENT_EVIDENCE,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,core_mas,s0,What Jon thinks the ideal dance studio should look like?,"Jon thinks the ideal dance studio should have a view by the water, great natural light, be located downtown for easy access, and have Marley flooring, which is grippy, allows movement, is tough, and e","By the water, with natural light and Marley flooring",0,0.32558139534883723,0.3404255319148936,0.17777777777777778,0.3404255319148936,0.1956521739130435,0.14744195615489714,0.10192727905086427,0.06923692285506125,0.6050290486564996
+1,core_mas,agent_c,What Jon thinks the ideal dance studio should look like?,Jon thinks the ideal dance studio should have a view by the water.,"By the water, with natural light and Marley flooring",0,0.22222222222222224,0.27272727272727276,0.2,0.27272727272727276,0.21428571428571425,0.1815682598006407,0.1428356262969865,0.12874330508144843,0.2831196581196581
+1,core_mas,s0,When is Jon's group performing at a festival?,INSUFFICIENT_EVIDENCE,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,core_mas,agent_c,When is Jon's group performing at a festival?,INSUFFICIENT_EVIDENCE,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+1,core_mas,s0,When did Gina launch an ad campaign for her store?,2023-10-01 at 14:00.,"29 January, 2023",0,0,0.2222222222222222,0.0,0.2222222222222222,0,0,0,0,0.0
+1,core_mas,agent_c,When did Gina launch an ad campaign for her store?,2023-10-01 at 14:00.,"29 January, 2023",0,0,0.2222222222222222,0.0,0.2222222222222222,0,0,0,0,0.0
+2,emem_like,s0,"Who did Maria have dinner with on May 3, 2023?",INSUFFICIENT_EVIDENCE,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,agent_c,"Who did Maria have dinner with on May 3, 2023?",INSUFFICIENT_EVIDENCE,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,s0,When did Maria donate her car?,yesterday.,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,agent_c,When did Maria donate her car?,yesterday.,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,s0,What martial arts has John done?,kickboxing and taekwondo.,"Kickboxing, Taekwondo",0,0.8,0.8,0.0,0.8,0.5,0.223606797749979,0.1740444189610778,0.1495348781221221,0.32258064516129037
+2,emem_like,agent_c,What martial arts has John done?,kickboxing and taekwondo.,"Kickboxing, Taekwondo",0,0.8,0.8,0.0,0.8,0.5,0.223606797749979,0.1740444189610778,0.1495348781221221,0.32258064516129037
+2,emem_like,s0,What type of volunteering have John and Maria both done?,INSUFFICIENT_EVIDENCE,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,agent_c,What type of volunteering have John and Maria both done?,INSUFFICIENT_EVIDENCE,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,s0,When did John join the online support group?,INSUFFICIENT_EVIDENCE,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,agent_c,When did John join the online support group?,INSUFFICIENT_EVIDENCE,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,s0,When did Maria go to the beach?,last month.,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,agent_c,When did Maria go to the beach?,last month.,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,s0,Where has Maria made friends?,Maria has made friends with a fellow volunteer.,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,agent_c,Where has Maria made friends?,at a community mtg.,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,emem_like,s0,What items des John mention having as a child?,John mentions having a little doll as a child.,"A doll, a film camera",0,0.2,0.42857142857142855,0.0,0.42857142857142855,0.3,0.17320508075688773,0.14704491615448095,0.13160740129524925,0.234375
+2,emem_like,agent_c,What items des John mention having as a child?,INSUFFICIENT_EVIDENCE,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,s0,"Who did Maria have dinner with on May 3, 2023?","Maria had dinner with John and his family on May 3, 2023.",her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,agent_c,"Who did Maria have dinner with on May 3, 2023?","Maria had dinner with John and his family on May 3, 2023.",her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,s0,When did Maria donate her car?,2023-10-01 14:00.,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,agent_c,When did Maria donate her car?,2023-10-01 14:00.,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,s0,What martial arts has John done?,kickboxing and weight training.,"Kickboxing, Taekwondo",0,0.3333333333333333,0.3333333333333333,0.0,0.3333333333333333,0.2,0.14142135623730953,0.128629297735137,0.11892071150027214,0.15625
+2,frequency,agent_c,What martial arts has John done?,kickboxing,"Kickboxing, Taekwondo",0,0.6666666666666666,0.6666666666666666,0.0,0.6666666666666666,0.1353352832366127,0.04279677428117006,0.02960813390314045,0.024066394763145416,0.17857142857142855
+2,frequency,s0,What type of volunteering have John and Maria both done?,INSUFFICIENT_EVIDENCE,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,agent_c,What type of volunteering have John and Maria both done?,INSUFFICIENT_EVIDENCE,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,s0,When did John join the online support group?,INSUFFICIENT_EVIDENCE,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,agent_c,When did John join the online support group?,INSUFFICIENT_EVIDENCE,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,s0,When did Maria go to the beach?,last month,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,agent_c,When did Maria go to the beach?,last month,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,s0,Where has Maria made friends?,INSUFFICIENT_EVIDENCE,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,agent_c,Where has Maria made friends?,INSUFFICIENT_EVIDENCE,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,frequency,s0,What items des John mention having as a child?,film camera,"A doll, a film camera",0,0.8,0.5714285714285715,0.4,0.5714285714285715,0.1353352832366127,0.1353352832366127,0.06330106782582003,0.04279677428117006,0.33482142857142855
+2,frequency,agent_c,What items des John mention having as a child?,film camera,"A doll, a film camera",0,0.8,0.5714285714285715,0.4,0.5714285714285715,0.1353352832366127,0.1353352832366127,0.06330106782582003,0.04279677428117006,0.33482142857142855
+2,core_mas,s0,"Who did Maria have dinner with on May 3, 2023?",friends from the gym,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,agent_c,"Who did Maria have dinner with on May 3, 2023?",friends from the gym,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,s0,When did Maria donate her car?,INSUFFICIENT_EVIDENCE,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,agent_c,When did Maria donate her car?,INSUFFICIENT_EVIDENCE,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,s0,What martial arts has John done?,kickboxing,"Kickboxing, Taekwondo",0,0.6666666666666666,0.6666666666666666,0.0,0.6666666666666666,0.1353352832366127,0.04279677428117006,0.02960813390314045,0.024066394763145416,0.17857142857142855
+2,core_mas,agent_c,What martial arts has John done?,kickboxing,"Kickboxing, Taekwondo",0,0.6666666666666666,0.6666666666666666,0.0,0.6666666666666666,0.1353352832366127,0.04279677428117006,0.02960813390314045,0.024066394763145416,0.17857142857142855
+2,core_mas,s0,What type of volunteering have John and Maria both done?,volunteering as a mentor for a local school and at a homeless shelter.,Volunteering at a homeless shelter,0,0.5714285714285715,0.5555555555555556,0.375,0.5555555555555556,0.3571428571428572,0.2870846258816073,0.24293866735461883,0.18798317647335086,0.8203389830508474
+2,core_mas,agent_c,What type of volunteering have John and Maria both done?,volunteering as a mentor for a local school and at a homeless shelter.,Volunteering at a homeless shelter,0,0.5714285714285715,0.5555555555555556,0.375,0.5555555555555556,0.3571428571428572,0.2870846258816073,0.24293866735461883,0.18798317647335086,0.8203389830508474
+2,core_mas,s0,When did John join the online support group?,INSUFFICIENT_EVIDENCE,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,agent_c,When did John join the online support group?,later that night.,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,s0,When did Maria go to the beach?,INSUFFICIENT_EVIDENCE,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,agent_c,When did Maria go to the beach?,INSUFFICIENT_EVIDENCE,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,s0,Where has Maria made friends?,INSUFFICIENT_EVIDENCE,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,agent_c,Where has Maria made friends?,INSUFFICIENT_EVIDENCE,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+2,core_mas,s0,What items des John mention having as a child?,John mentions having a film camera as a child.,"A doll, a film camera",0,0.4,0.5714285714285714,0.3333333333333333,0.42857142857142855,0.4,0.2981423969999719,0.22651656746142707,0.1825741858350554,0.4931640625
+2,core_mas,agent_c,What items des John mention having as a child?,John does not mention any specific items he had as a child.,"A doll, a film camera",0,0,0.11764705882352941,0.0,0.11764705882352941,0.07692307692307693,0.08770580193070293,0.09384231086646776,0.09365137582048806,0.14925373134328357
+3,emem_like,s0,Is it likely that Nate has friends besides Joanna?,Nate has friends besides Joanna.,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0.16666666666666669,0.12909944487358058,0.12111838948674818,0.11362193664674995,0.08333333333333333
+3,emem_like,agent_c,Is it likely that Nate has friends besides Joanna?,Nate has friends besides Joanna.,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0.16666666666666669,0.12909944487358058,0.12111838948674818,0.11362193664674995,0.08333333333333333
+3,emem_like,s0,What kind of interests do Joanna and Nate share?,INSUFFICIENT_EVIDENCE,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,emem_like,agent_c,What kind of interests do Joanna and Nate share?,INSUFFICIENT_EVIDENCE,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,emem_like,s0,"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",INSUFFICIENT_EVIDENCE,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,emem_like,agent_c,"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",INSUFFICIENT_EVIDENCE,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,emem_like,s0,When did Nate win his first video game tournament?,last week,"the week before 21Janury, 2022",0,0.3333333333333333,0.28571428571428575,0.0,0.28571428571428575,0.06766764161830635,0.030261889307125377,0.02355435073584915,0.020237345084409754,0.08928571428571427
+3,emem_like,agent_c,When did Nate win his first video game tournament?,last week.,"the week before 21Janury, 2022",0,0.3333333333333333,0.28571428571428575,0.0,0.28571428571428575,0.12262648039048077,0.06716528945733125,0.056008701486149184,0.04970787578611783,0.08771929824561403
+3,emem_like,s0,What pets wouldn't cause any discomfort to Joanna?,"Pets that are not reptiles, animals with fur, or cockroaches.","Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0.14814814814814817,0.12903225806451613,0.0,0.06451612903225806,0.16502384651658025,0.07681442019012032,0.06448356472398462,0.057409188139232334,0.16244541484716157
+3,emem_like,agent_c,What pets wouldn't cause any discomfort to Joanna?,"Pets that are not reptiles, animals with fur, or cockroaches.","Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0.14814814814814817,0.12903225806451613,0.0,0.06451612903225806,0.16502384651658025,0.07681442019012032,0.06448356472398462,0.057409188139232334,0.16244541484716157
+3,emem_like,s0,What are Joanna's hobbies?,INSUFFICIENT_EVIDENCE,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,emem_like,agent_c,What are Joanna's hobbies?,INSUFFICIENT_EVIDENCE,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,emem_like,s0,How long has Nate had his first two turtles?,INSUFFICIENT_EVIDENCE,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,emem_like,agent_c,How long has Nate had his first two turtles?,INSUFFICIENT_EVIDENCE,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,emem_like,s0,When did Joanna finish her first screenplay?,last Friday.,"The Friday before 23January, 2022",0,0.3333333333333333,0.28571428571428575,0.0,0.28571428571428575,0.12262648039048077,0.06716528945733125,0.056008701486149184,0.04970787578611783,0.08771929824561403
+3,emem_like,agent_c,When did Joanna finish her first screenplay?,last Friday.,"The Friday before 23January, 2022",0,0.3333333333333333,0.28571428571428575,0.0,0.28571428571428575,0.12262648039048077,0.06716528945733125,0.056008701486149184,0.04970787578611783,0.08771929824561403
+3,frequency,s0,Is it likely that Nate has friends besides Joanna?,INSUFFICIENT_EVIDENCE,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,agent_c,Is it likely that Nate has friends besides Joanna?,INSUFFICIENT_EVIDENCE,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,s0,What kind of interests do Joanna and Nate share?,INSUFFICIENT_EVIDENCE,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,agent_c,What kind of interests do Joanna and Nate share?,INSUFFICIENT_EVIDENCE,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,s0,"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",INSUFFICIENT_EVIDENCE,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,agent_c,"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",INSUFFICIENT_EVIDENCE,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,s0,When did Nate win his first video game tournament?,last week,"the week before 21Janury, 2022",0,0.3333333333333333,0.28571428571428575,0.0,0.28571428571428575,0.06766764161830635,0.030261889307125377,0.02355435073584915,0.020237345084409754,0.08928571428571427
+3,frequency,agent_c,When did Nate win his first video game tournament?,last week,"the week before 21Janury, 2022",0,0.3333333333333333,0.28571428571428575,0.0,0.28571428571428575,0.06766764161830635,0.030261889307125377,0.02355435073584915,0.020237345084409754,0.08928571428571427
+3,frequency,s0,What pets wouldn't cause any discomfort to Joanna?,The red key is on the kitchen table and would not cause any discomfort to Joanna.,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0.06451612903225808,0.2162162162162162,0.0,0.2162162162162162,0.15587767891621793,0.10161981393080141,0.08990927868715523,0.08204944124830037,0.10729613733905581
+3,frequency,agent_c,What pets wouldn't cause any discomfort to Joanna?,The red key is on the kitchen table and would not cause any discomfort to Joanna.,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0.06451612903225808,0.2162162162162162,0.0,0.2162162162162162,0.15587767891621793,0.10161981393080141,0.08990927868715523,0.08204944124830037,0.10729613733905581
+3,frequency,s0,What are Joanna's hobbies?,INSUFFICIENT_EVIDENCE,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,agent_c,What are Joanna's hobbies?,INSUFFICIENT_EVIDENCE,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,s0,How long has Nate had his first two turtles?,INSUFFICIENT_EVIDENCE,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,agent_c,How long has Nate had his first two turtles?,INSUFFICIENT_EVIDENCE,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,s0,When did Joanna finish her first screenplay?,INSUFFICIENT_EVIDENCE,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,frequency,agent_c,When did Joanna finish her first screenplay?,INSUFFICIENT_EVIDENCE,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,core_mas,s0,Is it likely that Nate has friends besides Joanna?,"Yes, it is likely that Nate has friends besides Joanna.",Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0.08333333333333333,0.09128709291752769,0.09635409769034631,0.09554427922043669,0.07575757575757576
+3,core_mas,agent_c,Is it likely that Nate has friends besides Joanna?,INSUFFICIENT_EVIDENCE,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,core_mas,s0,What kind of interests do Joanna and Nate share?,INSUFFICIENT_EVIDENCE,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,core_mas,agent_c,What kind of interests do Joanna and Nate share?,INSUFFICIENT_EVIDENCE,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,core_mas,s0,"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",INSUFFICIENT_EVIDENCE,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,core_mas,agent_c,"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",INSUFFICIENT_EVIDENCE,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,core_mas,s0,When did Nate win his first video game tournament?,Nate won his first video game tournament last week.,"the week before 21Janury, 2022",0,0.15384615384615383,0.14285714285714285,0.0,0.14285714285714285,0.10000000000000002,0.10000000000000002,0.10232929922807543,0.10000000000000002,0.078125
+3,core_mas,agent_c,When did Nate win his first video game tournament?,INSUFFICIENT_EVIDENCE,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,core_mas,s0,What pets wouldn't cause any discomfort to Joanna?,Pets that are not reptiles and do not have fur would not cause any discomfort to Joanna.,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0.11764705882352941,0.21052631578947367,0.05555555555555556,0.21052631578947367,0.1990364751593859,0.09159240477050302,0.08621983817389832,0.08101162004849274,0.18221747388414058
+3,core_mas,agent_c,What pets wouldn't cause any discomfort to Joanna?,Pets that are not reptiles and do not have fur would not cause any discomfort to Joanna.,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0.11764705882352941,0.21052631578947367,0.05555555555555556,0.21052631578947367,0.1990364751593859,0.09159240477050302,0.08621983817389832,0.08101162004849274,0.18221747388414058
+3,core_mas,s0,What are Joanna's hobbies?,INSUFFICIENT_EVIDENCE,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,core_mas,agent_c,What are Joanna's hobbies?,INSUFFICIENT_EVIDENCE,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0
+3,core_mas,s0,How long has Nate had his first two turtles?,3 years.,three years,0,0.5,0.5,0.0,0.5,0.3333333333333333,0.1825741858350554,0.15224743548538644,0.13512001548070346,0.8928571428571429
+3,core_mas,agent_c,How long has Nate had his first two turtles?,3 years.,three years,0,0.5,0.5,0.0,0.5,0.3333333333333333,0.1825741858350554,0.15224743548538644,0.13512001548070346,0.8928571428571429
+3,core_mas,s0,When did Joanna finish her first screenplay?,Joanna finished her first screenplay before receiving a rejection letter from a major company.,"The Friday before 23January, 2022",0,0.125,0.10526315789473682,0.0,0.10526315789473682,0.06666666666666667,0.08164965809277261,0.08951377743388193,0.09036020036098448,0.07246376811594203
+3,core_mas,agent_c,When did Joanna finish her first screenplay?,before receiving a rejection letter from a major company.,"The Friday before 23January, 2022",0,0.18181818181818182,0.14285714285714285,0.0,0.14285714285714285,0.10000000000000002,0.10000000000000002,0.10232929922807543,0.10000000000000002,0.078125

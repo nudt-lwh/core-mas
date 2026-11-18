@@ -1,0 +1,721 @@
+question,category,victim,prediction,reference,exact_match,f1,rouge1_f,rouge2_f,rougeL_f,bleu1,bleu2,bleu3,bleu4,meteor,conv,strategy
+When did Caroline go to the LGBTQ support group?,2,s0,yes,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Melanie paint a sunrise?,2,s0,none,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What fields would Caroline be likely to pursue in her educaton?,3,s0,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What did Caroline research?,1,s0,none,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What is Caroline's identity?,1,s0,insufficient_evidence,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Melanie run a charity race?,2,s0,yes,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When is Melanie planning on going camping?,2,s0,none,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What is Caroline's relationship status?,1,s0,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Caroline give a speech at a school?,2,s0,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+"When did Caroline meet up with her friends, family, and mentors?",2,s0,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+How long has Caroline had her current group of friends for?,2,s0,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+Where did Caroline move from 4 years ago?,1,s0,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Caroline go to the LGBTQ support group?,2,agent_a,insufficient_evidence,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Melanie paint a sunrise?,2,agent_a,insufficient_evidence,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What fields would Caroline be likely to pursue in her educaton?,3,agent_a,insufficient_evidence,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What did Caroline research?,1,agent_a,insufficient_evidence,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What is Caroline's identity?,1,agent_a,insufficient_evidence,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Melanie run a charity race?,2,agent_a,insufficient_evidence,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When is Melanie planning on going camping?,2,agent_a,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What is Caroline's relationship status?,1,agent_a,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Caroline give a speech at a school?,2,agent_a,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+"When did Caroline meet up with her friends, family, and mentors?",2,agent_a,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+How long has Caroline had her current group of friends for?,2,agent_a,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+Where did Caroline move from 4 years ago?,1,agent_a,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Caroline go to the LGBTQ support group?,2,agent_b,yes,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Melanie paint a sunrise?,2,agent_b,none,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What fields would Caroline be likely to pursue in her educaton?,3,agent_b,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What did Caroline research?,1,agent_b,none,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What is Caroline's identity?,1,agent_b,insufficient_evidence,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Melanie run a charity race?,2,agent_b,yes,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When is Melanie planning on going camping?,2,agent_b,none,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What is Caroline's relationship status?,1,agent_b,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Caroline give a speech at a school?,2,agent_b,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+"When did Caroline meet up with her friends, family, and mentors?",2,agent_b,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+How long has Caroline had her current group of friends for?,2,agent_b,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+Where did Caroline move from 4 years ago?,1,agent_b,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Caroline go to the LGBTQ support group?,2,agent_c,yes,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Melanie paint a sunrise?,2,agent_c,none,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What fields would Caroline be likely to pursue in her educaton?,3,agent_c,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What did Caroline research?,1,agent_c,none,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What is Caroline's identity?,1,agent_c,insufficient_evidence,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Melanie run a charity race?,2,agent_c,yes,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When is Melanie planning on going camping?,2,agent_c,none,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+What is Caroline's relationship status?,1,agent_c,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Caroline give a speech at a school?,2,agent_c,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+"When did Caroline meet up with her friends, family, and mentors?",2,agent_c,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+How long has Caroline had her current group of friends for?,2,agent_c,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+Where did Caroline move from 4 years ago?,1,agent_c,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,emem_like
+When did Caroline go to the LGBTQ support group?,2,s0,none,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Melanie paint a sunrise?,2,s0,insufficient_evidence,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What fields would Caroline be likely to pursue in her educaton?,3,s0,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What did Caroline research?,1,s0,none,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What is Caroline's identity?,1,s0,none,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Melanie run a charity race?,2,s0,yes,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When is Melanie planning on going camping?,2,s0,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What is Caroline's relationship status?,1,s0,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Caroline give a speech at a school?,2,s0,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+"When did Caroline meet up with her friends, family, and mentors?",2,s0,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+How long has Caroline had her current group of friends for?,2,s0,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+Where did Caroline move from 4 years ago?,1,s0,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Caroline go to the LGBTQ support group?,2,agent_a,none,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Melanie paint a sunrise?,2,agent_a,insufficient_evidence,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What fields would Caroline be likely to pursue in her educaton?,3,agent_a,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What did Caroline research?,1,agent_a,none,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What is Caroline's identity?,1,agent_a,insufficient_evidence,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Melanie run a charity race?,2,agent_a,insufficient_evidence,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When is Melanie planning on going camping?,2,agent_a,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What is Caroline's relationship status?,1,agent_a,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Caroline give a speech at a school?,2,agent_a,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+"When did Caroline meet up with her friends, family, and mentors?",2,agent_a,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+How long has Caroline had her current group of friends for?,2,agent_a,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+Where did Caroline move from 4 years ago?,1,agent_a,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Caroline go to the LGBTQ support group?,2,agent_b,none,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Melanie paint a sunrise?,2,agent_b,insufficient_evidence,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What fields would Caroline be likely to pursue in her educaton?,3,agent_b,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What did Caroline research?,1,agent_b,none,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What is Caroline's identity?,1,agent_b,none,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Melanie run a charity race?,2,agent_b,yes,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When is Melanie planning on going camping?,2,agent_b,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What is Caroline's relationship status?,1,agent_b,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Caroline give a speech at a school?,2,agent_b,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+"When did Caroline meet up with her friends, family, and mentors?",2,agent_b,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+How long has Caroline had her current group of friends for?,2,agent_b,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+Where did Caroline move from 4 years ago?,1,agent_b,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Caroline go to the LGBTQ support group?,2,agent_c,none,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Melanie paint a sunrise?,2,agent_c,insufficient_evidence,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What fields would Caroline be likely to pursue in her educaton?,3,agent_c,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What did Caroline research?,1,agent_c,none,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What is Caroline's identity?,1,agent_c,none,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Melanie run a charity race?,2,agent_c,yes,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When is Melanie planning on going camping?,2,agent_c,none,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+What is Caroline's relationship status?,1,agent_c,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Caroline give a speech at a school?,2,agent_c,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+"When did Caroline meet up with her friends, family, and mentors?",2,agent_c,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+How long has Caroline had her current group of friends for?,2,agent_c,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+Where did Caroline move from 4 years ago?,1,agent_c,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,frequency
+When did Caroline go to the LGBTQ support group?,2,s0,yes,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Melanie paint a sunrise?,2,s0,insufficient_evidence,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What fields would Caroline be likely to pursue in her educaton?,3,s0,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What did Caroline research?,1,s0,insufficient_evidence,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What is Caroline's identity?,1,s0,none,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Melanie run a charity race?,2,s0,insufficient_evidence,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When is Melanie planning on going camping?,2,s0,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What is Caroline's relationship status?,1,s0,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Caroline give a speech at a school?,2,s0,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+"When did Caroline meet up with her friends, family, and mentors?",2,s0,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+How long has Caroline had her current group of friends for?,2,s0,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+Where did Caroline move from 4 years ago?,1,s0,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Caroline go to the LGBTQ support group?,2,agent_a,yes,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Melanie paint a sunrise?,2,agent_a,insufficient_evidence,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What fields would Caroline be likely to pursue in her educaton?,3,agent_a,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What did Caroline research?,1,agent_a,insufficient_evidence,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What is Caroline's identity?,1,agent_a,none,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Melanie run a charity race?,2,agent_a,insufficient_evidence,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When is Melanie planning on going camping?,2,agent_a,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What is Caroline's relationship status?,1,agent_a,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Caroline give a speech at a school?,2,agent_a,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+"When did Caroline meet up with her friends, family, and mentors?",2,agent_a,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+How long has Caroline had her current group of friends for?,2,agent_a,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+Where did Caroline move from 4 years ago?,1,agent_a,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Caroline go to the LGBTQ support group?,2,agent_b,yes,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Melanie paint a sunrise?,2,agent_b,insufficient_evidence,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What fields would Caroline be likely to pursue in her educaton?,3,agent_b,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What did Caroline research?,1,agent_b,insufficient_evidence,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What is Caroline's identity?,1,agent_b,none,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Melanie run a charity race?,2,agent_b,insufficient_evidence,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When is Melanie planning on going camping?,2,agent_b,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What is Caroline's relationship status?,1,agent_b,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Caroline give a speech at a school?,2,agent_b,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+"When did Caroline meet up with her friends, family, and mentors?",2,agent_b,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+How long has Caroline had her current group of friends for?,2,agent_b,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+Where did Caroline move from 4 years ago?,1,agent_b,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Caroline go to the LGBTQ support group?,2,agent_c,yes,7 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Melanie paint a sunrise?,2,agent_c,insufficient_evidence,2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What fields would Caroline be likely to pursue in her educaton?,3,agent_c,none,"Psychology, counseling certification",0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What did Caroline research?,1,agent_c,insufficient_evidence,Adoption agencies,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What is Caroline's identity?,1,agent_c,none,Transgender woman,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Melanie run a charity race?,2,agent_c,insufficient_evidence,The sunday before 25 May 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When is Melanie planning on going camping?,2,agent_c,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+What is Caroline's relationship status?,1,agent_c,insufficient_evidence,Single,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When did Caroline give a speech at a school?,2,agent_c,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+"When did Caroline meet up with her friends, family, and mentors?",2,agent_c,insufficient_evidence,The week before 9 June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+How long has Caroline had her current group of friends for?,2,agent_c,insufficient_evidence,4 years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+Where did Caroline move from 4 years ago?,1,agent_c,insufficient_evidence,Sweden,0,0,0.0,0.0,0.0,0,0,0,0,0.0,0,core_mas
+When Jon has lost his job as a banker?,2,s0,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When Gina has lost her job at Door Dash?,2,s0,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+How do Jon and Gina both like to destress?,4,s0,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+What do Jon and Gina both have in common?,1,s0,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+Why did Jon decide to start his dance studio?,4,s0,none,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+What Jon thinks the ideal dance studio should look like?,1,s0,none,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When is Jon's group performing at a festival?,2,s0,none,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina launch an ad campaign for her store?,2,s0,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When was Jon in Paris?,2,s0,yes,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+Which city have both Jean and John visited?,1,s0,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina team up with a local artist for some cool designs?,2,s0,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina get her tattoo?,2,s0,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When Jon has lost his job as a banker?,2,agent_a,insufficient_evidence,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When Gina has lost her job at Door Dash?,2,agent_a,insufficient_evidence,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+How do Jon and Gina both like to destress?,4,agent_a,insufficient_evidence,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+What do Jon and Gina both have in common?,1,agent_a,insufficient_evidence,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+Why did Jon decide to start his dance studio?,4,agent_a,insufficient_evidence,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+What Jon thinks the ideal dance studio should look like?,1,agent_a,insufficient_evidence,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When is Jon's group performing at a festival?,2,agent_a,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina launch an ad campaign for her store?,2,agent_a,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When was Jon in Paris?,2,agent_a,insufficient_evidence,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+Which city have both Jean and John visited?,1,agent_a,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina team up with a local artist for some cool designs?,2,agent_a,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina get her tattoo?,2,agent_a,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When Jon has lost his job as a banker?,2,agent_b,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When Gina has lost her job at Door Dash?,2,agent_b,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+How do Jon and Gina both like to destress?,4,agent_b,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+What do Jon and Gina both have in common?,1,agent_b,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+Why did Jon decide to start his dance studio?,4,agent_b,none,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+What Jon thinks the ideal dance studio should look like?,1,agent_b,none,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When is Jon's group performing at a festival?,2,agent_b,none,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina launch an ad campaign for her store?,2,agent_b,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When was Jon in Paris?,2,agent_b,yes,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+Which city have both Jean and John visited?,1,agent_b,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina team up with a local artist for some cool designs?,2,agent_b,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina get her tattoo?,2,agent_b,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When Jon has lost his job as a banker?,2,agent_c,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When Gina has lost her job at Door Dash?,2,agent_c,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+How do Jon and Gina both like to destress?,4,agent_c,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+What do Jon and Gina both have in common?,1,agent_c,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+Why did Jon decide to start his dance studio?,4,agent_c,none,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+What Jon thinks the ideal dance studio should look like?,1,agent_c,none,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When is Jon's group performing at a festival?,2,agent_c,none,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina launch an ad campaign for her store?,2,agent_c,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When was Jon in Paris?,2,agent_c,yes,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+Which city have both Jean and John visited?,1,agent_c,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina team up with a local artist for some cool designs?,2,agent_c,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When did Gina get her tattoo?,2,agent_c,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,emem_like
+When Jon has lost his job as a banker?,2,s0,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When Gina has lost her job at Door Dash?,2,s0,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+How do Jon and Gina both like to destress?,4,s0,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+What do Jon and Gina both have in common?,1,s0,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+Why did Jon decide to start his dance studio?,4,s0,yes,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+What Jon thinks the ideal dance studio should look like?,1,s0,insufficient_evidence,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When is Jon's group performing at a festival?,2,s0,yes,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina launch an ad campaign for her store?,2,s0,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When was Jon in Paris?,2,s0,yes,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+Which city have both Jean and John visited?,1,s0,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina team up with a local artist for some cool designs?,2,s0,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina get her tattoo?,2,s0,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When Jon has lost his job as a banker?,2,agent_a,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When Gina has lost her job at Door Dash?,2,agent_a,insufficient_evidence,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+How do Jon and Gina both like to destress?,4,agent_a,insufficient_evidence,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+What do Jon and Gina both have in common?,1,agent_a,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+Why did Jon decide to start his dance studio?,4,agent_a,none,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+What Jon thinks the ideal dance studio should look like?,1,agent_a,insufficient_evidence,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When is Jon's group performing at a festival?,2,agent_a,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina launch an ad campaign for her store?,2,agent_a,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When was Jon in Paris?,2,agent_a,insufficient_evidence,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+Which city have both Jean and John visited?,1,agent_a,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina team up with a local artist for some cool designs?,2,agent_a,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina get her tattoo?,2,agent_a,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When Jon has lost his job as a banker?,2,agent_b,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When Gina has lost her job at Door Dash?,2,agent_b,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+How do Jon and Gina both like to destress?,4,agent_b,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+What do Jon and Gina both have in common?,1,agent_b,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+Why did Jon decide to start his dance studio?,4,agent_b,yes,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+What Jon thinks the ideal dance studio should look like?,1,agent_b,insufficient_evidence,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When is Jon's group performing at a festival?,2,agent_b,yes,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina launch an ad campaign for her store?,2,agent_b,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When was Jon in Paris?,2,agent_b,yes,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+Which city have both Jean and John visited?,1,agent_b,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina team up with a local artist for some cool designs?,2,agent_b,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina get her tattoo?,2,agent_b,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When Jon has lost his job as a banker?,2,agent_c,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When Gina has lost her job at Door Dash?,2,agent_c,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+How do Jon and Gina both like to destress?,4,agent_c,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+What do Jon and Gina both have in common?,1,agent_c,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+Why did Jon decide to start his dance studio?,4,agent_c,insufficient_evidence,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+What Jon thinks the ideal dance studio should look like?,1,agent_c,insufficient_evidence,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When is Jon's group performing at a festival?,2,agent_c,yes,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina launch an ad campaign for her store?,2,agent_c,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When was Jon in Paris?,2,agent_c,yes,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+Which city have both Jean and John visited?,1,agent_c,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina team up with a local artist for some cool designs?,2,agent_c,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When did Gina get her tattoo?,2,agent_c,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,frequency
+When Jon has lost his job as a banker?,2,s0,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When Gina has lost her job at Door Dash?,2,s0,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+How do Jon and Gina both like to destress?,4,s0,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+What do Jon and Gina both have in common?,1,s0,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+Why did Jon decide to start his dance studio?,4,s0,none,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+What Jon thinks the ideal dance studio should look like?,1,s0,insufficient_evidence,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When is Jon's group performing at a festival?,2,s0,yes,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina launch an ad campaign for her store?,2,s0,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When was Jon in Paris?,2,s0,insufficient_evidence,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+Which city have both Jean and John visited?,1,s0,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina team up with a local artist for some cool designs?,2,s0,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina get her tattoo?,2,s0,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When Jon has lost his job as a banker?,2,agent_a,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When Gina has lost her job at Door Dash?,2,agent_a,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+How do Jon and Gina both like to destress?,4,agent_a,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+What do Jon and Gina both have in common?,1,agent_a,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+Why did Jon decide to start his dance studio?,4,agent_a,none,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+What Jon thinks the ideal dance studio should look like?,1,agent_a,insufficient_evidence,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When is Jon's group performing at a festival?,2,agent_a,yes,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina launch an ad campaign for her store?,2,agent_a,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When was Jon in Paris?,2,agent_a,insufficient_evidence,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+Which city have both Jean and John visited?,1,agent_a,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina team up with a local artist for some cool designs?,2,agent_a,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina get her tattoo?,2,agent_a,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When Jon has lost his job as a banker?,2,agent_b,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When Gina has lost her job at Door Dash?,2,agent_b,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+How do Jon and Gina both like to destress?,4,agent_b,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+What do Jon and Gina both have in common?,1,agent_b,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+Why did Jon decide to start his dance studio?,4,agent_b,none,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+What Jon thinks the ideal dance studio should look like?,1,agent_b,insufficient_evidence,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When is Jon's group performing at a festival?,2,agent_b,yes,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina launch an ad campaign for her store?,2,agent_b,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When was Jon in Paris?,2,agent_b,insufficient_evidence,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+Which city have both Jean and John visited?,1,agent_b,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina team up with a local artist for some cool designs?,2,agent_b,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina get her tattoo?,2,agent_b,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When Jon has lost his job as a banker?,2,agent_c,yes,"19 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When Gina has lost her job at Door Dash?,2,agent_c,yes,"January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+How do Jon and Gina both like to destress?,4,agent_c,none,by dancing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+What do Jon and Gina both have in common?,1,agent_c,yes,They lost their jobs and decided to start their own businesses.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+Why did Jon decide to start his dance studio?,4,agent_c,none,He lost his job and decided to start his own business to share his passion.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+What Jon thinks the ideal dance studio should look like?,1,agent_c,insufficient_evidence,"By the water, with natural light and Marley flooring",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When is Jon's group performing at a festival?,2,agent_c,yes,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina launch an ad campaign for her store?,2,agent_c,insufficient_evidence,"29 January, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When was Jon in Paris?,2,agent_c,insufficient_evidence,28 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+Which city have both Jean and John visited?,1,agent_c,insufficient_evidence,Rome,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina team up with a local artist for some cool designs?,2,agent_c,insufficient_evidence,"February, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+When did Gina get her tattoo?,2,agent_c,insufficient_evidence,A few years ago,0,0,0.0,0.0,0.0,0,0,0,0,0.0,1,core_mas
+"Who did Maria have dinner with on May 3, 2023?",2,s0,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria donate her car?,2,s0,yes,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What martial arts has John done?,1,s0,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What type of volunteering have John and Maria both done?,1,s0,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did John join the online support group?,2,s0,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria go to the beach?,2,s0,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+Where has Maria made friends?,1,s0,insufficient_evidence,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What items des John mention having as a child?,1,s0,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What might John's financial status be?,3,s0,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+Who gave Maria's family money when she was younger and her family was going thro,1,s0,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria meet Jean?,2,s0,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What people has Maria met and helped while volunteering?,1,s0,none,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+"Who did Maria have dinner with on May 3, 2023?",2,agent_a,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria donate her car?,2,agent_a,insufficient_evidence,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What martial arts has John done?,1,agent_a,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What type of volunteering have John and Maria both done?,1,agent_a,insufficient_evidence,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did John join the online support group?,2,agent_a,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria go to the beach?,2,agent_a,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+Where has Maria made friends?,1,agent_a,insufficient_evidence,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What items des John mention having as a child?,1,agent_a,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What might John's financial status be?,3,agent_a,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+Who gave Maria's family money when she was younger and her family was going thro,1,agent_a,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria meet Jean?,2,agent_a,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What people has Maria met and helped while volunteering?,1,agent_a,insufficient_evidence,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+"Who did Maria have dinner with on May 3, 2023?",2,agent_b,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria donate her car?,2,agent_b,yes,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What martial arts has John done?,1,agent_b,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What type of volunteering have John and Maria both done?,1,agent_b,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did John join the online support group?,2,agent_b,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria go to the beach?,2,agent_b,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+Where has Maria made friends?,1,agent_b,insufficient_evidence,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What items des John mention having as a child?,1,agent_b,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What might John's financial status be?,3,agent_b,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+Who gave Maria's family money when she was younger and her family was going thro,1,agent_b,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria meet Jean?,2,agent_b,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What people has Maria met and helped while volunteering?,1,agent_b,none,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+"Who did Maria have dinner with on May 3, 2023?",2,agent_c,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria donate her car?,2,agent_c,yes,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What martial arts has John done?,1,agent_c,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What type of volunteering have John and Maria both done?,1,agent_c,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did John join the online support group?,2,agent_c,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria go to the beach?,2,agent_c,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+Where has Maria made friends?,1,agent_c,insufficient_evidence,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What items des John mention having as a child?,1,agent_c,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What might John's financial status be?,3,agent_c,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+Who gave Maria's family money when she was younger and her family was going thro,1,agent_c,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+When did Maria meet Jean?,2,agent_c,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+What people has Maria met and helped while volunteering?,1,agent_c,none,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,emem_like
+"Who did Maria have dinner with on May 3, 2023?",2,s0,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria donate her car?,2,s0,yes,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What martial arts has John done?,1,s0,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What type of volunteering have John and Maria both done?,1,s0,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did John join the online support group?,2,s0,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria go to the beach?,2,s0,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+Where has Maria made friends?,1,s0,none,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What items des John mention having as a child?,1,s0,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What might John's financial status be?,3,s0,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+Who gave Maria's family money when she was younger and her family was going thro,1,s0,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria meet Jean?,2,s0,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What people has Maria met and helped while volunteering?,1,s0,none,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+"Who did Maria have dinner with on May 3, 2023?",2,agent_a,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria donate her car?,2,agent_a,insufficient_evidence,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What martial arts has John done?,1,agent_a,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What type of volunteering have John and Maria both done?,1,agent_a,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did John join the online support group?,2,agent_a,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria go to the beach?,2,agent_a,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+Where has Maria made friends?,1,agent_a,none,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What items des John mention having as a child?,1,agent_a,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What might John's financial status be?,3,agent_a,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+Who gave Maria's family money when she was younger and her family was going thro,1,agent_a,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria meet Jean?,2,agent_a,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What people has Maria met and helped while volunteering?,1,agent_a,none,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+"Who did Maria have dinner with on May 3, 2023?",2,agent_b,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria donate her car?,2,agent_b,yes,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What martial arts has John done?,1,agent_b,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What type of volunteering have John and Maria both done?,1,agent_b,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did John join the online support group?,2,agent_b,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria go to the beach?,2,agent_b,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+Where has Maria made friends?,1,agent_b,none,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What items des John mention having as a child?,1,agent_b,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What might John's financial status be?,3,agent_b,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+Who gave Maria's family money when she was younger and her family was going thro,1,agent_b,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria meet Jean?,2,agent_b,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What people has Maria met and helped while volunteering?,1,agent_b,none,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+"Who did Maria have dinner with on May 3, 2023?",2,agent_c,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria donate her car?,2,agent_c,yes,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What martial arts has John done?,1,agent_c,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What type of volunteering have John and Maria both done?,1,agent_c,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did John join the online support group?,2,agent_c,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria go to the beach?,2,agent_c,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+Where has Maria made friends?,1,agent_c,none,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What items des John mention having as a child?,1,agent_c,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What might John's financial status be?,3,agent_c,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+Who gave Maria's family money when she was younger and her family was going thro,1,agent_c,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+When did Maria meet Jean?,2,agent_c,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+What people has Maria met and helped while volunteering?,1,agent_c,none,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,frequency
+"Who did Maria have dinner with on May 3, 2023?",2,s0,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria donate her car?,2,s0,insufficient_evidence,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What martial arts has John done?,1,s0,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What type of volunteering have John and Maria both done?,1,s0,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did John join the online support group?,2,s0,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria go to the beach?,2,s0,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+Where has Maria made friends?,1,s0,none,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What items des John mention having as a child?,1,s0,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What might John's financial status be?,3,s0,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+Who gave Maria's family money when she was younger and her family was going thro,1,s0,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria meet Jean?,2,s0,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What people has Maria met and helped while volunteering?,1,s0,yes,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+"Who did Maria have dinner with on May 3, 2023?",2,agent_a,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria donate her car?,2,agent_a,insufficient_evidence,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What martial arts has John done?,1,agent_a,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What type of volunteering have John and Maria both done?,1,agent_a,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did John join the online support group?,2,agent_a,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria go to the beach?,2,agent_a,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+Where has Maria made friends?,1,agent_a,none,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What items des John mention having as a child?,1,agent_a,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What might John's financial status be?,3,agent_a,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+Who gave Maria's family money when she was younger and her family was going thro,1,agent_a,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria meet Jean?,2,agent_a,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What people has Maria met and helped while volunteering?,1,agent_a,yes,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+"Who did Maria have dinner with on May 3, 2023?",2,agent_b,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria donate her car?,2,agent_b,insufficient_evidence,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What martial arts has John done?,1,agent_b,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What type of volunteering have John and Maria both done?,1,agent_b,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did John join the online support group?,2,agent_b,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria go to the beach?,2,agent_b,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+Where has Maria made friends?,1,agent_b,none,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What items des John mention having as a child?,1,agent_b,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What might John's financial status be?,3,agent_b,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+Who gave Maria's family money when she was younger and her family was going thro,1,agent_b,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria meet Jean?,2,agent_b,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What people has Maria met and helped while volunteering?,1,agent_b,yes,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+"Who did Maria have dinner with on May 3, 2023?",2,agent_c,insufficient_evidence,her mother,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria donate her car?,2,agent_c,insufficient_evidence,21 December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What martial arts has John done?,1,agent_c,insufficient_evidence,"Kickboxing, Taekwondo",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What type of volunteering have John and Maria both done?,1,agent_c,none,Volunteering at a homeless shelter,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did John join the online support group?,2,agent_c,insufficient_evidence,The week before 1 January 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria go to the beach?,2,agent_c,insufficient_evidence,December 2022,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+Where has Maria made friends?,1,agent_c,none,"homeless shelter, gym, church",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What items des John mention having as a child?,1,agent_c,insufficient_evidence,"A doll, a film camera",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What might John's financial status be?,3,agent_c,insufficient_evidence,Middle-class or wealthy,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+Who gave Maria's family money when she was younger and her family was going thro,1,agent_c,insufficient_evidence,Her aunt,0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+When did Maria meet Jean?,2,agent_c,insufficient_evidence,"February 24, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+What people has Maria met and helped while volunteering?,1,agent_c,yes,"David, Jean, Cindy, Laura",0,0,0.0,0.0,0.0,0,0,0,0,0.0,2,core_mas
+Is it likely that Nate has friends besides Joanna?,3,s0,yes,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What kind of interests do Joanna and Nate share?,1,s0,yes,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,s0,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Nate win his first video game tournament?,2,s0,yes,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What pets wouldn't cause any discomfort to Joanna?,3,s0,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What are Joanna's hobbies?,1,s0,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+How long has Nate had his first two turtles?,2,s0,yes,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Joanna finish her first screenplay?,2,s0,yes,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Nate get his first two turtles?,2,s0,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What major achievement did Joanna accomplish in January 2022?,2,s0,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What emotions is Joanna feeling about  the screenplay she submitted?,1,s0,none,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What is Joanna allergic to?,1,s0,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+Is it likely that Nate has friends besides Joanna?,3,agent_a,insufficient_evidence,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What kind of interests do Joanna and Nate share?,1,agent_a,insufficient_evidence,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,agent_a,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Nate win his first video game tournament?,2,agent_a,insufficient_evidence,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What pets wouldn't cause any discomfort to Joanna?,3,agent_a,insufficient_evidence,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What are Joanna's hobbies?,1,agent_a,insufficient_evidence,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+How long has Nate had his first two turtles?,2,agent_a,insufficient_evidence,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Joanna finish her first screenplay?,2,agent_a,insufficient_evidence,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Nate get his first two turtles?,2,agent_a,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What major achievement did Joanna accomplish in January 2022?,2,agent_a,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What emotions is Joanna feeling about  the screenplay she submitted?,1,agent_a,insufficient_evidence,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What is Joanna allergic to?,1,agent_a,insufficient_evidence,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+Is it likely that Nate has friends besides Joanna?,3,agent_b,yes,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What kind of interests do Joanna and Nate share?,1,agent_b,yes,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,agent_b,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Nate win his first video game tournament?,2,agent_b,yes,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What pets wouldn't cause any discomfort to Joanna?,3,agent_b,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What are Joanna's hobbies?,1,agent_b,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+How long has Nate had his first two turtles?,2,agent_b,yes,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Joanna finish her first screenplay?,2,agent_b,yes,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Nate get his first two turtles?,2,agent_b,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What major achievement did Joanna accomplish in January 2022?,2,agent_b,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What emotions is Joanna feeling about  the screenplay she submitted?,1,agent_b,none,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What is Joanna allergic to?,1,agent_b,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+Is it likely that Nate has friends besides Joanna?,3,agent_c,yes,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What kind of interests do Joanna and Nate share?,1,agent_c,yes,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,agent_c,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Nate win his first video game tournament?,2,agent_c,yes,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What pets wouldn't cause any discomfort to Joanna?,3,agent_c,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What are Joanna's hobbies?,1,agent_c,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+How long has Nate had his first two turtles?,2,agent_c,yes,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Joanna finish her first screenplay?,2,agent_c,yes,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+When did Nate get his first two turtles?,2,agent_c,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What major achievement did Joanna accomplish in January 2022?,2,agent_c,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What emotions is Joanna feeling about  the screenplay she submitted?,1,agent_c,none,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+What is Joanna allergic to?,1,agent_c,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,emem_like
+Is it likely that Nate has friends besides Joanna?,3,s0,yes,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What kind of interests do Joanna and Nate share?,1,s0,none,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,s0,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Nate win his first video game tournament?,2,s0,insufficient_evidence,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What pets wouldn't cause any discomfort to Joanna?,3,s0,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What are Joanna's hobbies?,1,s0,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+How long has Nate had his first two turtles?,2,s0,none,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Joanna finish her first screenplay?,2,s0,yes,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Nate get his first two turtles?,2,s0,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What major achievement did Joanna accomplish in January 2022?,2,s0,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What emotions is Joanna feeling about  the screenplay she submitted?,1,s0,none,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What is Joanna allergic to?,1,s0,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+Is it likely that Nate has friends besides Joanna?,3,agent_a,yes,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What kind of interests do Joanna and Nate share?,1,agent_a,none,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,agent_a,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Nate win his first video game tournament?,2,agent_a,insufficient_evidence,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What pets wouldn't cause any discomfort to Joanna?,3,agent_a,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What are Joanna's hobbies?,1,agent_a,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+How long has Nate had his first two turtles?,2,agent_a,insufficient_evidence,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Joanna finish her first screenplay?,2,agent_a,insufficient_evidence,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Nate get his first two turtles?,2,agent_a,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What major achievement did Joanna accomplish in January 2022?,2,agent_a,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What emotions is Joanna feeling about  the screenplay she submitted?,1,agent_a,none,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What is Joanna allergic to?,1,agent_a,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+Is it likely that Nate has friends besides Joanna?,3,agent_b,yes,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What kind of interests do Joanna and Nate share?,1,agent_b,none,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,agent_b,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Nate win his first video game tournament?,2,agent_b,insufficient_evidence,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What pets wouldn't cause any discomfort to Joanna?,3,agent_b,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What are Joanna's hobbies?,1,agent_b,yes,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+How long has Nate had his first two turtles?,2,agent_b,none,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Joanna finish her first screenplay?,2,agent_b,yes,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Nate get his first two turtles?,2,agent_b,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What major achievement did Joanna accomplish in January 2022?,2,agent_b,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What emotions is Joanna feeling about  the screenplay she submitted?,1,agent_b,none,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What is Joanna allergic to?,1,agent_b,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+Is it likely that Nate has friends besides Joanna?,3,agent_c,yes,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What kind of interests do Joanna and Nate share?,1,agent_c,none,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,agent_c,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Nate win his first video game tournament?,2,agent_c,insufficient_evidence,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What pets wouldn't cause any discomfort to Joanna?,3,agent_c,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What are Joanna's hobbies?,1,agent_c,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+How long has Nate had his first two turtles?,2,agent_c,yes,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Joanna finish her first screenplay?,2,agent_c,yes,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+When did Nate get his first two turtles?,2,agent_c,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What major achievement did Joanna accomplish in January 2022?,2,agent_c,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What emotions is Joanna feeling about  the screenplay she submitted?,1,agent_c,none,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+What is Joanna allergic to?,1,agent_c,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,frequency
+Is it likely that Nate has friends besides Joanna?,3,s0,insufficient_evidence,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What kind of interests do Joanna and Nate share?,1,s0,none,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,s0,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Nate win his first video game tournament?,2,s0,insufficient_evidence,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What pets wouldn't cause any discomfort to Joanna?,3,s0,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What are Joanna's hobbies?,1,s0,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+How long has Nate had his first two turtles?,2,s0,insufficient_evidence,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Joanna finish her first screenplay?,2,s0,insufficient_evidence,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Nate get his first two turtles?,2,s0,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What major achievement did Joanna accomplish in January 2022?,2,s0,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What emotions is Joanna feeling about  the screenplay she submitted?,1,s0,insufficient_evidence,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What is Joanna allergic to?,1,s0,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+Is it likely that Nate has friends besides Joanna?,3,agent_a,insufficient_evidence,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What kind of interests do Joanna and Nate share?,1,agent_a,none,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,agent_a,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Nate win his first video game tournament?,2,agent_a,insufficient_evidence,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What pets wouldn't cause any discomfort to Joanna?,3,agent_a,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What are Joanna's hobbies?,1,agent_a,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+How long has Nate had his first two turtles?,2,agent_a,insufficient_evidence,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Joanna finish her first screenplay?,2,agent_a,insufficient_evidence,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Nate get his first two turtles?,2,agent_a,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What major achievement did Joanna accomplish in January 2022?,2,agent_a,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What emotions is Joanna feeling about  the screenplay she submitted?,1,agent_a,insufficient_evidence,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What is Joanna allergic to?,1,agent_a,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+Is it likely that Nate has friends besides Joanna?,3,agent_b,insufficient_evidence,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What kind of interests do Joanna and Nate share?,1,agent_b,none,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,agent_b,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Nate win his first video game tournament?,2,agent_b,insufficient_evidence,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What pets wouldn't cause any discomfort to Joanna?,3,agent_b,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What are Joanna's hobbies?,1,agent_b,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+How long has Nate had his first two turtles?,2,agent_b,insufficient_evidence,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Joanna finish her first screenplay?,2,agent_b,insufficient_evidence,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Nate get his first two turtles?,2,agent_b,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What major achievement did Joanna accomplish in January 2022?,2,agent_b,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What emotions is Joanna feeling about  the screenplay she submitted?,1,agent_b,insufficient_evidence,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What is Joanna allergic to?,1,agent_b,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+Is it likely that Nate has friends besides Joanna?,3,agent_c,insufficient_evidence,Yesteammates on hisvideo game team.,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What kind of interests do Joanna and Nate share?,1,agent_c,none,"Watching movies, making desserts",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,agent_c,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Nate win his first video game tournament?,2,agent_c,insufficient_evidence,"the week before 21Janury, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What pets wouldn't cause any discomfort to Joanna?,3,agent_c,none,"Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What are Joanna's hobbies?,1,agent_c,none,"Writing, watchingmovies, exploringnature, hanging withfriends.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+How long has Nate had his first two turtles?,2,agent_c,insufficient_evidence,three years,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Joanna finish her first screenplay?,2,agent_c,insufficient_evidence,"The Friday before 23January, 2022",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+When did Nate get his first two turtles?,2,agent_c,insufficient_evidence,2019,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What major achievement did Joanna accomplish in January 2022?,2,agent_c,insufficient_evidence,finished her screenplay and printed it,0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What emotions is Joanna feeling about  the screenplay she submitted?,1,agent_c,insufficient_evidence,"Relief, excitement,worry, hope,anxiety.",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+What is Joanna allergic to?,1,agent_c,yes,"Most reptiles,animals with fur,cockroaches, dairy",0,0,0.0,0.0,0.0,0,0,0,0,0.0,3,core_mas
+what are John's goals with regards to his basketball career?,1,s0,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What are John's goals for his career that are not related to his basketball skil,1,s0,yes,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What items does John collect?,1,s0,insufficient_evidence,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,s0,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What books has Tim read?,1,s0,insufficient_evidence,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,s0,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+In which month's game did John achieve a career-high score in points?,2,s0,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which geographical locations has Tim been to?,1,s0,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which outdoor gear company likely signed up John for an endorsement deal?,3,s0,insufficient_evidence,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which endorsement deals has John been offered?,1,s0,insufficient_evidence,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+When was John in Seattle for a game?,2,s0,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What sports does John like besides basketball?,1,s0,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+what are John's goals with regards to his basketball career?,1,agent_a,insufficient_evidence,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What are John's goals for his career that are not related to his basketball skil,1,agent_a,insufficient_evidence,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What items does John collect?,1,agent_a,insufficient_evidence,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,agent_a,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What books has Tim read?,1,agent_a,insufficient_evidence,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,agent_a,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+In which month's game did John achieve a career-high score in points?,2,agent_a,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which geographical locations has Tim been to?,1,agent_a,insufficient_evidence,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which outdoor gear company likely signed up John for an endorsement deal?,3,agent_a,insufficient_evidence,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which endorsement deals has John been offered?,1,agent_a,insufficient_evidence,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+When was John in Seattle for a game?,2,agent_a,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What sports does John like besides basketball?,1,agent_a,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+what are John's goals with regards to his basketball career?,1,agent_b,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What are John's goals for his career that are not related to his basketball skil,1,agent_b,yes,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What items does John collect?,1,agent_b,insufficient_evidence,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,agent_b,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What books has Tim read?,1,agent_b,insufficient_evidence,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,agent_b,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+In which month's game did John achieve a career-high score in points?,2,agent_b,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which geographical locations has Tim been to?,1,agent_b,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which outdoor gear company likely signed up John for an endorsement deal?,3,agent_b,insufficient_evidence,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which endorsement deals has John been offered?,1,agent_b,insufficient_evidence,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+When was John in Seattle for a game?,2,agent_b,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What sports does John like besides basketball?,1,agent_b,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+what are John's goals with regards to his basketball career?,1,agent_c,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What are John's goals for his career that are not related to his basketball skil,1,agent_c,yes,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What items does John collect?,1,agent_c,insufficient_evidence,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,agent_c,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What books has Tim read?,1,agent_c,insufficient_evidence,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,agent_c,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+In which month's game did John achieve a career-high score in points?,2,agent_c,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which geographical locations has Tim been to?,1,agent_c,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which outdoor gear company likely signed up John for an endorsement deal?,3,agent_c,insufficient_evidence,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+Which endorsement deals has John been offered?,1,agent_c,insufficient_evidence,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+When was John in Seattle for a game?,2,agent_c,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+What sports does John like besides basketball?,1,agent_c,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,emem_like
+what are John's goals with regards to his basketball career?,1,s0,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What are John's goals for his career that are not related to his basketball skil,1,s0,none,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What items does John collect?,1,s0,none,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,s0,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What books has Tim read?,1,s0,insufficient_evidence,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,s0,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+In which month's game did John achieve a career-high score in points?,2,s0,none,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which geographical locations has Tim been to?,1,s0,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which outdoor gear company likely signed up John for an endorsement deal?,3,s0,none,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which endorsement deals has John been offered?,1,s0,none,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+When was John in Seattle for a game?,2,s0,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What sports does John like besides basketball?,1,s0,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+what are John's goals with regards to his basketball career?,1,agent_a,insufficient_evidence,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What are John's goals for his career that are not related to his basketball skil,1,agent_a,none,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What items does John collect?,1,agent_a,none,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,agent_a,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What books has Tim read?,1,agent_a,insufficient_evidence,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,agent_a,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+In which month's game did John achieve a career-high score in points?,2,agent_a,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which geographical locations has Tim been to?,1,agent_a,insufficient_evidence,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which outdoor gear company likely signed up John for an endorsement deal?,3,agent_a,insufficient_evidence,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which endorsement deals has John been offered?,1,agent_a,insufficient_evidence,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+When was John in Seattle for a game?,2,agent_a,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What sports does John like besides basketball?,1,agent_a,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+what are John's goals with regards to his basketball career?,1,agent_b,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What are John's goals for his career that are not related to his basketball skil,1,agent_b,none,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What items does John collect?,1,agent_b,none,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,agent_b,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What books has Tim read?,1,agent_b,insufficient_evidence,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,agent_b,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+In which month's game did John achieve a career-high score in points?,2,agent_b,none,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which geographical locations has Tim been to?,1,agent_b,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which outdoor gear company likely signed up John for an endorsement deal?,3,agent_b,none,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which endorsement deals has John been offered?,1,agent_b,none,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+When was John in Seattle for a game?,2,agent_b,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What sports does John like besides basketball?,1,agent_b,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+what are John's goals with regards to his basketball career?,1,agent_c,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What are John's goals for his career that are not related to his basketball skil,1,agent_c,insufficient_evidence,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What items does John collect?,1,agent_c,none,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,agent_c,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What books has Tim read?,1,agent_c,none,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,agent_c,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+In which month's game did John achieve a career-high score in points?,2,agent_c,none,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which geographical locations has Tim been to?,1,agent_c,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which outdoor gear company likely signed up John for an endorsement deal?,3,agent_c,none,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+Which endorsement deals has John been offered?,1,agent_c,none,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+When was John in Seattle for a game?,2,agent_c,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+What sports does John like besides basketball?,1,agent_c,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,frequency
+what are John's goals with regards to his basketball career?,1,s0,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What are John's goals for his career that are not related to his basketball skil,1,s0,insufficient_evidence,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What items does John collect?,1,s0,none,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,s0,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What books has Tim read?,1,s0,none,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,s0,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+In which month's game did John achieve a career-high score in points?,2,s0,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which geographical locations has Tim been to?,1,s0,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which outdoor gear company likely signed up John for an endorsement deal?,3,s0,insufficient_evidence,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which endorsement deals has John been offered?,1,s0,insufficient_evidence,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+When was John in Seattle for a game?,2,s0,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What sports does John like besides basketball?,1,s0,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+what are John's goals with regards to his basketball career?,1,agent_a,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What are John's goals for his career that are not related to his basketball skil,1,agent_a,insufficient_evidence,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What items does John collect?,1,agent_a,none,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,agent_a,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What books has Tim read?,1,agent_a,none,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,agent_a,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+In which month's game did John achieve a career-high score in points?,2,agent_a,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which geographical locations has Tim been to?,1,agent_a,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which outdoor gear company likely signed up John for an endorsement deal?,3,agent_a,insufficient_evidence,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which endorsement deals has John been offered?,1,agent_a,insufficient_evidence,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+When was John in Seattle for a game?,2,agent_a,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What sports does John like besides basketball?,1,agent_a,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+what are John's goals with regards to his basketball career?,1,agent_b,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What are John's goals for his career that are not related to his basketball skil,1,agent_b,insufficient_evidence,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What items does John collect?,1,agent_b,none,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,agent_b,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What books has Tim read?,1,agent_b,none,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,agent_b,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+In which month's game did John achieve a career-high score in points?,2,agent_b,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which geographical locations has Tim been to?,1,agent_b,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which outdoor gear company likely signed up John for an endorsement deal?,3,agent_b,insufficient_evidence,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which endorsement deals has John been offered?,1,agent_b,insufficient_evidence,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+When was John in Seattle for a game?,2,agent_b,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What sports does John like besides basketball?,1,agent_b,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+what are John's goals with regards to his basketball career?,1,agent_c,yes,"improve shooting percentage, win a championship",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What are John's goals for his career that are not related to his basketball skil,1,agent_c,insufficient_evidence,"get endorsements, build his brand, do charity work",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What items does John collect?,1,agent_c,none,"sneakers, fantasy movie DVDs, jerseys",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,agent_c,insufficient_evidence,C. S.Lewis,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What books has Tim read?,1,agent_c,none,"Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of T",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+"Based on Tim's collections, what is a shop that he would enjoy visiting in New Y",3,agent_c,insufficient_evidence,House of MinaLima,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+In which month's game did John achieve a career-high score in points?,2,agent_c,insufficient_evidence,June 2023,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which geographical locations has Tim been to?,1,agent_c,yes,"California, London, the Smoky Mountains",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which outdoor gear company likely signed up John for an endorsement deal?,3,agent_c,insufficient_evidence,Under Armour,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+Which endorsement deals has John been offered?,1,agent_c,insufficient_evidence,"basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+When was John in Seattle for a game?,2,agent_c,insufficient_evidence,"early August, 2023",0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas
+What sports does John like besides basketball?,1,agent_c,insufficient_evidence,surfing,0,0,0.0,0.0,0.0,0,0,0,0,0.0,4,core_mas

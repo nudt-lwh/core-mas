@@ -1,0 +1,24 @@
+{
+  "model": "qwen3-4b-local",
+  "models": {
+    "storage_mode": "text",
+    "tokenizer_model": "D:/SCI/core-mas-code/tools/models/qwen3-tokenizer",
+    "memory_agent_model": "qwen3-4b-local",
+    "general_model": "qwen3-4b-local",
+    "manager_model": "qwen3-4b-local",
+    "aggregator_model": "qwen3-4b-local",
+    "router_fallback_model": "qwen3-4b-local",
+    "question_answer_model": "qwen3-4b-local"
+  },
+  "dataset": "D:\\SCI\\core-mas-code\\references\\emem\\evaluation/eval_data/locomo/locomo10.json",
+  "total_questions": 5,
+  "category_distribution": {
+    "2": 3,
+    "3": 1,
+    "1": 1
+  },
+  "aggregate_metrics": {
+    "overall": {}
+  },
+  "individual_results": []
+}

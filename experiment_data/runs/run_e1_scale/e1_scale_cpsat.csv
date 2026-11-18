@@ -1,0 +1,3 @@
+n_suppliers,n_agents,seed,cp_sat_status,cp_sat_seconds,exact_s0,heur_s0,gap
+32,3,200,OPTIMAL,448.6,0.8933,0.76,0.1493
+64,3,200,OPTIMAL,3034.4,0.98,0.6933,0.2925

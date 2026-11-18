@@ -1,0 +1,21 @@
+{
+  "completed": 24,
+  "model": "deepseek-chat",
+  "first_judge": {
+    "original": 6,
+    "source_ledger": 10
+  },
+  "blind_audit": {
+    "original": 10,
+    "source_ledger": 15
+  },
+  "audit_n": 21,
+  "usage": {
+    "prompt_tokens": 607190,
+    "completion_tokens": 246327,
+    "total_tokens": 853517,
+    "prompt_cache_hit_tokens": 241150,
+    "prompt_cache_miss_tokens": 366040
+  },
+  "calls": 177
+}

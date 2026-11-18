@@ -1,0 +1,393 @@
+=== CASE: task=test_1_cheapest_pair_S5_S1 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Which supplier has the lower price: S5 or S1? | correct: S1
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=4
+  -> [f_price_S5_raw|src:src-S5-finance|rule:-] S5 price = 118 (10k RMB)
+[f_price_S1_raw|src:src-S1-finance|rule:-] S1 price = 65 (10k RMB)
+VERIFIED records: 2
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: S1
+graded: True (answer='s1', correct='S1')
+
+=== CASE: task=test_1_cheapest_pair_S5_S1 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Which supplier has the lower price: S5 or S1? | correct: S1
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 0
+GATE: FAIL -> repair +1 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='S1')
+
+=== CASE: task=test_2_cheapest_pair_S1_S4 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Which supplier has the lower price: S1 or S4? | correct: S4
+[finance] units=4
+  -> [f_price_S4_raw|src:src-S4-finance|rule:-] S4 price = 62 (10k RMB)
+
+(No S1 price record is present in my memory, so I cannot compare S1 vs S4.)
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 1
+GATE: FAIL -> repair +1 -> SUFFICIENT
+COORDINATOR -> ANSWER: S4
+graded: True (answer='s4', correct='S4')
+
+=== CASE: task=test_2_cheapest_pair_S1_S4 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Which supplier has the lower price: S1 or S4? | correct: S4
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 0
+GATE: FAIL -> repair +0 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='S4')
+
+=== CASE: task=test_5_deliver_pair_S7_S2 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Do both S7 and S2 deliver within 30 days? | correct: no
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+
+(No S7 delivery record is present in my memory, so I cannot confirm both.)
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 1
+GATE: FAIL -> repair +0 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='no')
+
+=== CASE: task=test_5_deliver_pair_S7_S2 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Do both S7 and S2 deliver within 30 days? | correct: no
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S7_raw|src:src-S7-logistics|rule:-] S7 delivery = 36 days
+[f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+[coordinator] units=5
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 2
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: no
+graded: True (answer='no', correct='no')
+
+=== CASE: task=test_6_cheapest_compliant_S2_S6 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Among compliant suppliers, which is cheaper: S2 or S6? | correct: none
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 0
+GATE: FAIL -> repair +2 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='none')
+
+=== CASE: task=test_6_cheapest_compliant_S2_S6 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Among compliant suppliers, which is cheaper: S2 or S6? | correct: none
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 0
+GATE: FAIL -> repair +0 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='none')
+
+=== CASE: task=test_7_deliver_pair_S8_S2 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Do both S8 and S2 deliver within 30 days? | correct: no
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 1
+GATE: FAIL -> repair +0 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='no')
+
+=== CASE: task=test_7_deliver_pair_S8_S2 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Do both S8 and S2 deliver within 30 days? | correct: no
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> [f_delivery_days_S8_raw|src:src-S8-logistics|rule:-] S8 delivery = 38 days
+VERIFIED records: 1
+GATE: FAIL -> repair +1 -> SUFFICIENT
+COORDINATOR -> ANSWER: no
+graded: True (answer='no', correct='no')
+
+=== CASE: task=test_9_budget_check_S3_S5 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Is S3's price below 1200,000 RMB? | correct: yes
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=4
+  -> [f_price_S3_raw|src:src-S3-finance|rule:-] S3 price = 61 (10k RMB)
+VERIFIED records: 1
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
+
+=== CASE: task=test_9_budget_check_S3_S5 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Is S3's price below 1200,000 RMB? | correct: yes
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 0
+GATE: FAIL -> repair +0 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='yes')
+
+=== CASE: task=test_33_deliver_pair_S1_S2 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Do both S1 and S2 deliver within 30 days? | correct: yes
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S1_raw|src:src-S1-logistics|rule:-] S1 delivery = 8 days
+[f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 2
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
+
+=== CASE: task=test_33_deliver_pair_S1_S2 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Do both S1 and S2 deliver within 30 days? | correct: yes
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S1_raw|src:src-S1-logistics|rule:-] S1 delivery = 8 days
+[f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+[coordinator] units=5
+  -> [f_delivery_days_S1_raw|src:src-S1-logistics|rule:-] S1 delivery = 8 days
+
+NO_RELEVANT_EVIDENCE for S2 delivery time.
+VERIFIED records: 2
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
+
+=== CASE: task=test_34_deliver_pair_S1_S2 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Do both S1 and S2 deliver within 30 days? | correct: yes
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S1_raw|src:src-S1-logistics|rule:-] S1 delivery = 8 days
+[f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 2
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
+
+=== CASE: task=test_34_deliver_pair_S1_S2 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Do both S1 and S2 deliver within 30 days? | correct: yes
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S1_raw|src:src-S1-logistics|rule:-] S1 delivery = 8 days
+[f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+[coordinator] units=5
+  -> [f_delivery_days_S1_raw|src:src-S1-logistics|rule:-] S1 delivery = 8 days
+
+NO_RELEVANT_EVIDENCE
+VERIFIED records: 2
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
+
+=== CASE: task=test_0_budget_check_S4_S6 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Is S4's price below 1200,000 RMB? | correct: yes
+[finance] units=4
+  -> [f_price_S4_raw|src:src-S4-finance|rule:-] S4 price = 62 (10k RMB)
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 1
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
+
+=== CASE: task=test_0_budget_check_S4_S6 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Is S4's price below 1200,000 RMB? | correct: yes
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 0
+GATE: FAIL -> repair +0 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='yes')
+
+=== CASE: task=test_3_deliver_pair_S4_S2 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Do both S4 and S2 deliver within 15 days? | correct: no
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 1
+GATE: FAIL -> repair +0 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='no')
+
+=== CASE: task=test_3_deliver_pair_S4_S2 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Do both S4 and S2 deliver within 15 days? | correct: no
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> [f_delivery_days_S4_raw|src:src-S4-logistics|rule:-] S4 delivery = 35 days
+VERIFIED records: 1
+GATE: FAIL -> repair +1 -> SUFFICIENT
+COORDINATOR -> ANSWER: no
+graded: True (answer='no', correct='no')
+
+=== CASE: task=test_4_cheapest_compliant_S7_S3 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Among compliant suppliers, which is cheaper: S7 or S3? | correct: none
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 0
+GATE: FAIL -> repair +2 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='none')
+
+=== CASE: task=test_4_cheapest_compliant_S7_S3 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Among compliant suppliers, which is cheaper: S7 or S3? | correct: none
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 0
+GATE: FAIL -> repair +0 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='none')
+
+=== CASE: task=test_8_deliver_pair_S2_S5 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Do both S2 and S5 deliver within 30 days? | correct: yes
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+[f_delivery_days_S5_raw|src:src-S5-logistics|rule:-] S5 delivery = 14 days
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 2
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
+
+=== CASE: task=test_8_deliver_pair_S2_S5 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Do both S2 and S5 deliver within 30 days? | correct: yes
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> [f_delivery_days_S2_raw|src:src-S2-logistics|rule:-] S2 delivery = 24 days
+[f_delivery_days_S5_raw|src:src-S5-logistics|rule:-] S5 delivery = 14 days
+[coordinator] units=5
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 2
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
+
+=== CASE: task=test_10_budget_check_S6_S7 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Is S6's price below 800,000 RMB? | correct: no
+[finance] units=4
+  -> [f_price_S6_raw|src:src-S6-finance|rule:-] S6 price = 98 (10k RMB)
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=4
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 1
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: no
+graded: True (answer='no', correct='no')
+
+=== CASE: task=test_10_budget_check_S6_S7 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Is S6's price below 800,000 RMB? | correct: no
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> NO_RELEVANT_EVIDENCE
+VERIFIED records: 0
+GATE: FAIL -> repair +0 -> INSUFFICIENT
+COORDINATOR -> ANSWER: INSUFFICIENT_EVIDENCE
+graded: False (answer='insufficient_evidence', correct='no')
+
+=== CASE: task=test_13_budget_check_S5_S6 strategy=core_mas cap=0.8 victim=None ===
+QUESTION: Is S5's price below 1200,000 RMB? | correct: yes
+[finance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=4
+  -> [f_price_S5_raw|src:src-S5-finance|rule:-] S5 price = 118 (10k RMB)
+VERIFIED records: 1
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
+
+=== CASE: task=test_13_budget_check_S5_S6 strategy=task_aware_item cap=0.8 victim=finance ===
+QUESTION: Is S5's price below 1200,000 RMB? | correct: yes
+[finance] MEMORY UNAVAILABLE (failure)
+[compliance] units=4
+  -> NO_RELEVANT_EVIDENCE
+[logistics] units=5
+  -> NO_RELEVANT_EVIDENCE
+[coordinator] units=5
+  -> [f_price_S5_raw|src:src-S5-finance|rule:-] S5 price = 118 (10k RMB)
+VERIFIED records: 1
+GATE: PASS -> repair +0 -> SUFFICIENT
+COORDINATOR -> ANSWER: yes
+graded: True (answer='yes', correct='yes')
